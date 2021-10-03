@@ -1,6 +1,6 @@
 package day22;
 
-public class MultiplicationTable {
+public class  MultiplicationTable {
 
     public static void main(String[] args) {
 
@@ -35,6 +35,7 @@ public class MultiplicationTable {
 
         // this loop is for iterating number from 1 to 10 to get multiplication table
         for (int timesTable = 1; timesTable <= 10; timesTable++) {
+
 
             // I want to know which number I want to get the multiplication table
             System.out.println("Multiplication table of " + timesTable);

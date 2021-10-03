@@ -25,13 +25,13 @@ public class CreatingArray2 {
             System.out.println(ages[x]);
         }
         //  if you do it this way : IT MUST HAPPEN IN ONE LINE TOGETHER
-         int[] areCodes = {703, 300, 954, 665 } ;
+         int[] areaCodes = {703, 300, 954, 665 } ;
 
 //        int[] areCodes ;
 //        areCodes = {703, 300, 954, 665 } ;
 
-        for (int x = 0; x < areCodes.length ; x++) {
-            System.out.print(areCodes[x] + " ");
+        for (int x = 0; x < areaCodes.length ; x++) {
+            System.out.print( areaCodes[x] + " " ) ;
 
 
         }

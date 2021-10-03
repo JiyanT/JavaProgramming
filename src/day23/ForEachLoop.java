@@ -22,6 +22,11 @@ public class ForEachLoop {
 
                 System.out.println("eachPrice = " + eachPrice) ;
 
+                for (double blablabla : prices) {
+
+                    System.out.println(" eachPrice = "  + blablabla ) ;
+                }
+
 
             
             

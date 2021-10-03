@@ -31,10 +31,12 @@ public class ForEachLoopPracticeFindMax {
          * then go through each number and compare the number
          * if the number you are comparing is more than what is on the paper
          * delete that number and replace with bigger number
-         * keep doing this until you do not have any more number left
+         * keep doing this until you do not have any number left
          */
         long[] salaries = new long[]{100000L, 200000L, 150000L, 115000L, 60000L};
-        long max = salaries[4] ;
+
+
+        long max = salaries[0] ;
 
         for (long salary : salaries) {
             // check the current salary is more than max
@@ -42,8 +44,9 @@ public class ForEachLoopPracticeFindMax {
             // if so replace the existing value of max with current bigger salary
                 max=salary ;
             }
-            System.out.println("maxSalary = " + max);
         }
+
+        System.out.println("maxSalary = " + max);
 
         long[] salaries2 = new long[]{-100000L, -200000L, -150000L, -115000L, -60000L};
         long max2 =0 ;

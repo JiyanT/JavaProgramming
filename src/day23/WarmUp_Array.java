@@ -24,11 +24,9 @@ public class WarmUp_Array {
         nums[6] = 3;
 
         // 2 nd way to create an array with values already filled
-         int[] nums2 = new int[]{11,2,34,4,53,6,3} ;
 
         // 3rd and shortest way
         // THIS MUST HAPPEN IN ONE LINE, WE CAN NOT DECLARE FIRST AND ASSIGN LATER
-        int[] nums3 = {11,2,34,4,53,6,3} ;
 
         for (int x = nums.length-1 ; x>=0 ; x-- ) {
 

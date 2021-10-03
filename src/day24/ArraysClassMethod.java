@@ -1,6 +1,6 @@
 package day24;
 
-import java.util.Arrays;
+import java.util.Arrays ;
 
 public class ArraysClassMethod {
 
@@ -14,22 +14,25 @@ public class ArraysClassMethod {
      // This method will give you string representation of any type of array
      // the result will look --->>> [item] , item 2 , item 3 ....... lastItem]
 
-        String[] superHeros = {"Superman", "Batman", "Wonder Woman", "Aquaman", "Cyborg", "Flash"} ;
+        String[] superHeroes = {"Superman", "Batman", "Wonder Woman", "Aquamarine", "Cyborg", "Flash"} ;
 
-     // System.out.println(superHeros) ;
-        System.out.println("Arrays.toString(superHeros) result :    ");
-        System.out.println(   Arrays.toString(superHeros)  ) ;
+     // System.out.println(superHeroes) ;
+        System.out.println("Arrays.toString(superHeroes) result :    ");
+        System.out.println(   Arrays.toString(superHeroes)  ) ;
 
      // saving the string result into a variable and print
-        String superHerosAsString  = Arrays.toString(superHeros) ;
+        String superHeroesAsString  = Arrays.toString(superHeroes) ;
 
-        System.out.println(" superHerosAsString result :    ");
-        System.out.println( superHerosAsString ) ;
+        System.out.println(" superHeroesAsString result :    ");
+        System.out.println( superHeroesAsString ) ;
 
-        // how do we get first character of savingSuperHerosAsString variable
-        System.out.println(" superHerosAsString.charAt(0) result :    ");
-        System.out.println( superHerosAsString.charAt(0) ) ;
+        // how do we get first character of SuperHeroesAsString variable
+        System.out.println(" superHeroesAsString.charAt(0) result :    ");
+        System.out.println( superHeroesAsString.charAt(0) ) ;
+
         System.out.println("-------------------------------------");
+
+
         int[] numbers = {10,44,55,3,78} ;
         System.out.println( "Arrays.toString(numbers) RESULT   : " ) ;
         System.out.println(Arrays.toString(numbers) ) ;
@@ -40,7 +43,7 @@ public class ArraysClassMethod {
         // for example : your first 2 line of output should look like this
         // character at index 1 is : yourCharacterHere
         // character at index 1 is : yourCharacterHere and so on  all the way till last
-        double[] prices =new double[]{ 3.14, 5.5, 9.9 } ;
+        double[] prices =new double[] {  3.14,  5.5,  9.9  } ;
 
         System.out.println(" Arrays.toString(prices) result : " +   Arrays.toString(prices) ) ;
         // since the method give you back a string representation of array object
@@ -51,9 +54,9 @@ public class ArraysClassMethod {
         System.out.println( " pricesString = " + pricesString );
 
         // we are looping over a String not an array so we after at last character finishes
-        for (int i = 0; i < pricesString.length(); i++) {
+        for (int i = 0 ; i < pricesString.length() ; i++) {
 
-            System.out.println( " character at index " + i + " is : " + pricesString.charAt(i) );
+            System.out.println( " Character at index " + i + " is : " + pricesString.charAt(i) ) ;
 
         }
       // THE SOLE PURPOSE OF Arrays.toString(yourArray) is TO SEE WHAT IS INSIDE

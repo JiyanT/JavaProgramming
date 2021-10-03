@@ -50,9 +50,12 @@ public class ArrayPractice1 {
         System.out.println(nameChars[2]) ;
         System.out.println(nameChars[3]) ;
         System.out.println(nameChars[4]) ;
+
         // THIS WILL ACTUALLY PRINT THE CONTENT OF CHAR ARRAY NOT MEMORY ADDRESSES
         // AND THIS IS ONLY FOR CHAR ARRAY , ANYTHING ELSE WILL PRINT MEMORY ADDRESSES
         // System.out.println( nameChars );
+
+        System.out.println(nameChars);
 
         boolean[] yesNo = new boolean[3] ;
 

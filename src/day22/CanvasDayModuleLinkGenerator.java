@@ -19,8 +19,8 @@ public class CanvasDayModuleLinkGenerator {
         lead you to the right module of the day from day 21 all the way till day 56
     * */
 
-        String baseURL = " https://learn.cybertekschool.com/courses/278/modules#";
-        String dayMsg =  "this will lead you to day ";
+        String baseURL = " https://learn.cybertekschool.com/courses/278/modules# " ;
+        String dayMsg =  " This will lead you to day " ;
 
 //        for (int moduleNumber = 3317; moduleNumber <= 3317+25 ; moduleNumber++) {
 //            System.out.println(moduleNumber);

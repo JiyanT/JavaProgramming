@@ -12,10 +12,10 @@ public class LoopingThroughAnArrayInReverseOrder {
         scores[2] = 88 ;
         scores[3] =100 ;
 
-        int elementCount = scores.length ;
-        int lastItemIndex = elementCount - 1 ;
+        int elementCount = scores.length ;      // 4
+        int lastItemIndex = elementCount - 1 ;  // 3
 
-        // we are printing in reverse order
+        // we are printing in reverse order,
         // so we start with the highest index till the lowest index 0 --->>> 3-0
 
 
